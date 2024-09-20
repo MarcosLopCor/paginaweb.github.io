@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes - DeMeDeKa</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Agencia de Viajes - Tokio</h1>
+        <p>Explora la cultura, gastronomía y modernidad de Tokio en un viaje inolvidable.</p>
+        <!-- Botón para activar el modo oscuro -->
+        <button id="modo-oscuro-btn">Activar Modo Oscuro</button>
+    </header>
+
+    <section id="imagenes">
+        <h2>Imágenes de Tokio</h2>
+        <div class="imagenes-container">
+            <img src="imagenes/tokio1.jpg" alt="Panorámica de Tokio">
+            <img src="imagenes/tokio2.jpg" alt="Templo Sensoji">
+            <img src="imagenes/tokio3.jpg" alt="Cruce de Shibuya">
+        </div>
+    </section>
+
+    <section id="actividades">
+        <h2>Actividades y sitios para visitar</h2>
+        <div class="actividades-container">
+            <!-- Actividad 1 -->
+            <div class="actividad">
+                <img src="imagenes/sensoji.jpg" alt="Templo Sensoji">
+                <div class="info">
+                    <h3>Visita al Templo Sensoji</h3>
+                    <p>Descubre el templo más antiguo de Tokio, un lugar sagrado lleno de historia y tradición.</p>
+                </div>
+            </div>
+            <!-- Actividad 2 -->
+            <div class="actividad">
+                <img src="imagenes/shibuya.jpg" alt="Barrio de Shibuya">
+                <div class="info">
+                    <h3>Paseo por el barrio de Shibuya</h3>
+                    <p>Explora el vibrante y moderno barrio de Shibuya, famoso por su famoso cruce peatonal.</p>
+                </div>
+            </div>
+            <!-- Actividad 3 -->
+            <div class="actividad">
+                <img src="imagenes/akihabara.jpg" alt="Akihabara">
+                <div class="info">
+                    <h3>Recorrido por Akihabara</h3>
+                    <p>Adéntrate en el paraíso de la tecnología y el anime en el icónico barrio de Akihabara.</p>
+                </div>
+            </div>
+            <!-- Actividad 4 -->
+            <div class="actividad">
+                <img src="imagenes/fuji.jpg" alt="Monte Fuji">
+                <div class="info">
+                    <h3>Excursión al Monte Fuji</h3>
+                    <p>Vive una experiencia única en la majestuosa montaña símbolo de Japón, el Monte Fuji.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="precio">
+        <h2>Precio del Viaje</h2>
+        <p>El precio total del viaje es de <strong>1500€</strong> por persona, incluye vuelos, alojamiento y tours guiados.</p>
+    </section>
+
+    <section id="reserva">
+        <h2>Formulario de Reserva</h2>
+        <form id="formulario-reserva">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit" id="reservar">Reservar</button>
+        </form>
+    </section>
+
+    <footer>
+        <!--&copy; es para que ponga la c con el circulito alrededor-->
+        <p>&copy; 2024 Agencia de Viajes Ficticia</p>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
